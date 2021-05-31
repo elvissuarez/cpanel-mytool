@@ -1,0 +1,28 @@
+global-styling:
+  version: VERSION
+  js:
+    js/popper.min.js: {}
+    js/bootstrap.min.js: {}
+    js/barrio.js: {}
+    js/custom.js: {}
+  css:
+    component:
+      css/style.css: {}
+  dependencies:
+    - core/jquery
+    - core/drupal
+
+# Mytool library productos
+tools-slider:
+  version: 1.x
+  css:
+    theme:
+      # css/slider.css: {}
+  js:
+    js/jquery.elevatezoom.js: {}
+    js/slider.js: {}
+    js/flex.js: {}
+  dependencies:
+    - core/jquery
+    - core/jquery.once
+    - core/drupal

@@ -1,0 +1,62 @@
+/* VARIABLES */
+
+// colors
+$primary-shade: rgb(255, 78, 46);
+$primary-light: lighten($primary-shade, 37%);
+$primary-dark: darken($primary-shade, 12%);
+$accent-shade: #0079C0;
+$accent-light: lighten($accent-shade, 37%);
+$accent-dark: darken($accent-shade, 12%);
+$teal: #008080;
+$orange: #FFA500;
+// Reassign color vars to semantic color scheme
+$red: #dc3545;
+$yellow: #ffc107;
+$green: #28a745;
+$cyan: #17a2b8;
+$white: #fff;
+$black: #2a2a2a;
+$gray-100: #f8f9fa;
+$gray-800: #343a40;
+$theme-colors: ( primary: $accent-shade, secondary: $primary-shade, success: $green, info: $cyan, warning: $yellow, danger: $red, light: $gray-100, dark: $gray-800);
+$brand-primary: $accent-shade;
+$brand-success: $green;
+$brand-info: $teal;
+$brand-warning: $orange;
+$brand-danger: $red;
+$brand-inverse: $primary-shade;
+// Body
+//
+// Settings for the `<body>` element.
+$body-bg: #ffcccc;
+$body-color: $gray-800;
+$inverse-bg: $primary-shade;
+$inverse-color: $white;
+// Links
+//
+// Style anchor elements.
+// $link-color: $accent-shade;
+$link-color: $black;
+$link-decoration: none;
+$link-hover-color: #000000;
+$link-hover-decoration: underline;
+// Comments
+$comment-spacer-x: 1.25em;
+$comment-spacer-y: 1.25em;
+// Responsive font sizes
+$enable-responsive-font-sizes: true;
+$enable-shadows: false;
+$enable-gradients: false;
+
+// Mytool Variables
+$mytool-bar: #2b323f;
+$main-bussiness-color: #E0791C;
+$main-bussiness-color-second: #f7a055;
+$main-bussiness-color-dark: #985213;
+$main-bussiness-color-ligth: #e0c81c;
+$filters-font-color: #2b323f;
+$border-style: 1px solid #ddd;
+$link-filter-color: #8e8e8e;
+$footer-background-color: #dadada;
+$footer-color: #5a5a5a;
+$border-style-footer: 1px solid #f0f0f0;
