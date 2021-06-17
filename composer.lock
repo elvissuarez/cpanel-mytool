@@ -1214,17 +1214,17 @@
         },
         {
             "name": "drupal/admin_toolbar",
-            "version": "3.0.0",
+            "version": "3.0.1",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/admin_toolbar.git",
-                "reference": "3.0.0"
+                "reference": "3.0.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/admin_toolbar-3.0.0.zip",
-                "reference": "3.0.0",
-                "shasum": "204f7a0e8b62a8a54256142cf38ca139739fb65c"
+                "url": "https://ftp.drupal.org/files/projects/admin_toolbar-3.0.1.zip",
+                "reference": "3.0.1",
+                "shasum": "e25ca22db1317174a7fba4734c0412293b573f43"
             },
             "require": {
                 "drupal/core": "^8.8.0 || ^9.0"
@@ -1235,8 +1235,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "3.0.0",
-                    "datestamp": "1611311186",
+                    "version": "3.0.1",
+                    "datestamp": "1622644077",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -1616,17 +1616,17 @@
         },
         {
             "name": "drupal/bootstrap_barrio",
-            "version": "5.1.4",
+            "version": "5.1.5",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/bootstrap_barrio.git",
-                "reference": "5.1.4"
+                "reference": "5.1.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/bootstrap_barrio-5.1.4.zip",
-                "reference": "5.1.4",
-                "shasum": "957a76d18eecfb1062088f22d3ba9ae9b79af240"
+                "url": "https://ftp.drupal.org/files/projects/bootstrap_barrio-5.1.5.zip",
+                "reference": "5.1.5",
+                "shasum": "65567fb80be6a2f9b941b5f4537eb2585619b3d6"
             },
             "require": {
                 "drupal/core": "^8 || ^9",
@@ -1635,8 +1635,8 @@
             "type": "drupal-theme",
             "extra": {
                 "drupal": {
-                    "version": "5.1.4",
-                    "datestamp": "1603660710",
+                    "version": "5.1.5",
+                    "datestamp": "1621798643",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -2079,17 +2079,17 @@
         },
         {
             "name": "drupal/commerce_add_to_cart_link",
-            "version": "2.0.1",
+            "version": "2.0.2",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/commerce_add_to_cart_link.git",
-                "reference": "2.0.1"
+                "reference": "2.0.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/commerce_add_to_cart_link-2.0.1.zip",
-                "reference": "2.0.1",
-                "shasum": "6503247bb647139fffc83bcc2bc6cbaaf9ba58fc"
+                "url": "https://ftp.drupal.org/files/projects/commerce_add_to_cart_link-2.0.2.zip",
+                "reference": "2.0.2",
+                "shasum": "b6aa9d2162c7631c3ae8fa24887f52fe994255b5"
             },
             "require": {
                 "drupal/commerce": "~2.11",
@@ -2103,8 +2103,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "2.0.1",
-                    "datestamp": "1620835457",
+                    "version": "2.0.2",
+                    "datestamp": "1622012455",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -2823,16 +2823,16 @@
         },
         {
             "name": "drupal/core",
-            "version": "8.9.15",
+            "version": "8.9.16",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core.git",
-                "reference": "4804cb039c1e21f841dc4eccb24dc4a90c8280c6"
+                "reference": "498effa27ae5111f53f04fbe80fd05369a88c53d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupal/core/zipball/4804cb039c1e21f841dc4eccb24dc4a90c8280c6",
-                "reference": "4804cb039c1e21f841dc4eccb24dc4a90c8280c6",
+                "url": "https://api.github.com/repos/drupal/core/zipball/498effa27ae5111f53f04fbe80fd05369a88c53d",
+                "reference": "498effa27ae5111f53f04fbe80fd05369a88c53d",
                 "shasum": ""
             },
             "require": {
@@ -3050,11 +3050,11 @@
                 "GPL-2.0-or-later"
             ],
             "description": "Drupal is an open source content management platform powering millions of websites and applications.",
-            "time": "2021-05-05T11:28:48+00:00"
+            "time": "2021-05-25T09:17:58+00:00"
         },
         {
             "name": "drupal/core-composer-scaffold",
-            "version": "8.9.15",
+            "version": "8.9.16",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core-composer-scaffold.git",
@@ -3101,7 +3101,7 @@
         },
         {
             "name": "drupal/core-project-message",
-            "version": "8.9.15",
+            "version": "8.9.16",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core-project-message.git",
@@ -3139,16 +3139,16 @@
         },
         {
             "name": "drupal/core-recommended",
-            "version": "8.9.15",
+            "version": "8.9.16",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core-recommended.git",
-                "reference": "eb09bb8097d63ef7fb44d8a464dc84eb9af5141f"
+                "reference": "ec38f5cb75ca1848f2247a645d4a4dee4abe4c28"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupal/core-recommended/zipball/eb09bb8097d63ef7fb44d8a464dc84eb9af5141f",
-                "reference": "eb09bb8097d63ef7fb44d8a464dc84eb9af5141f",
+                "url": "https://api.github.com/repos/drupal/core-recommended/zipball/ec38f5cb75ca1848f2247a645d4a4dee4abe4c28",
+                "reference": "ec38f5cb75ca1848f2247a645d4a4dee4abe4c28",
                 "shasum": ""
             },
             "require": {
@@ -3160,7 +3160,7 @@
                 "doctrine/common": "v2.7.3",
                 "doctrine/inflector": "v1.2.0",
                 "doctrine/lexer": "1.0.2",
-                "drupal/core": "8.9.15",
+                "drupal/core": "8.9.16",
                 "easyrdf/easyrdf": "0.9.1",
                 "egulias/email-validator": "2.1.17",
                 "guzzlehttp/guzzle": "6.5.4",
@@ -3217,7 +3217,7 @@
                 "GPL-2.0-or-later"
             ],
             "description": "Locked core dependencies; require this project INSTEAD OF drupal/core.",
-            "time": "2021-05-05T11:28:48+00:00"
+            "time": "2021-05-25T09:17:58+00:00"
         },
         {
             "name": "drupal/crop",
@@ -5915,29 +5915,29 @@
         },
         {
             "name": "drupal/link_target",
-            "version": "1.2.0",
+            "version": "1.3.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/link_target.git",
-                "reference": "8.x-1.2"
+                "reference": "8.x-1.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/link_target-8.x-1.2.zip",
-                "reference": "8.x-1.2",
-                "shasum": "0594f15da7752cce4a01fdd9af7e2d56efebf707"
+                "url": "https://ftp.drupal.org/files/projects/link_target-8.x-1.3.zip",
+                "reference": "8.x-1.3",
+                "shasum": "6e887a08544f363c1a3696e44bd59ad79444e171"
             },
             "require": {
-                "drupal/core": "^8"
+                "drupal/core": "^8 || ^9"
             },
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "8.x-1.2",
-                    "datestamp": "1500901442",
+                    "version": "8.x-1.3",
+                    "datestamp": "1623098032",
                     "security-coverage": {
-                        "status": "not-covered",
-                        "message": "Project has not opted into security advisory coverage!"
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
                     }
                 }
             },
@@ -5949,6 +5949,14 @@
                 {
                     "name": "jacobfrancke@gmail.com",
                     "homepage": "https://www.drupal.org/user/3267792"
+                },
+                {
+                    "name": "mandclu",
+                    "homepage": "https://www.drupal.org/user/52136"
+                },
+                {
+                    "name": "mturner20",
+                    "homepage": "https://www.drupal.org/user/3520303"
                 }
             ],
             "description": "Provide a widget for Link field type which permits to choose target.",

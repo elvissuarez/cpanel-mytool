@@ -23,6 +23,21 @@
         currentSpan.toggleClass('active').parent().next().slideToggle();
         // currentSpan.siblings().removeClass('fa-caret-right').addClass('fa-caret-down active');
       });
+      $('.messages-dismiss').first().once("mytool_bootstrap_sass").click(function (e) {
+        $('.alert').removeClass('show').addClass('hidden');
+        $(this).removeClass('show').addClass('hidden');
+        $('.messages-wrapper').removeClass('show').addClass('hidden');
+      });
+      $
+      $('.alert.show .close').once("mytool_bootstrap_sass").click(function (e) {
+        if ($('.alert.show').length <= 3){
+          $('.alert.show').each(function () {
+            $(this).removeClass('show').addClass('hidden');
+          });
+          $('.messages-dismiss').removeClass('show').addClass('hidden');
+          $('.messages-wrapper').removeClass('show').addClass('hidden');
+        }
+      });
     }
   };
 

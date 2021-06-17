@@ -11,6 +11,7 @@ Description: Bootstrap 4 with Sass
 
 body {
   background: $body-bg;
+  font-size: $font-size-base;
 }
 h1{
   font-size: 30px;
@@ -152,6 +153,8 @@ a.link--previous{
 }
 .header-main{
   background-color: $mytool-bar;
+  min-height: 59px;
+  font-size: 14px;
   .row.region.region-nav-left{
     margin: 0;
   }
@@ -577,7 +580,7 @@ a.link--previous{
     }
     .link-cart{
       position: absolute ;
-      top: 10px;
+      bottom: 10px;
       right: 30px;
       z-index: 3;
       font-size: 30px;
@@ -735,6 +738,97 @@ a.link--previous{
     &:hover{
       color: white;
       background-color: darken(#f44336, 5);
+    }
+  }
+}
+.btn.form-submit.search_box__button{
+  background-color: $main-bussiness-color;
+  border-color: darken($main-bussiness-color, 5);
+  &:hover{
+    background-color: darken($main-bussiness-color, 5);
+  }
+}
+.flex-direction-nav{
+  a{
+    transition: all 0.1s 0.1s ease-in-out;
+  }
+  .flex-prev{
+    background-color: lighten($white, $amount: 5);
+    height: 129px;
+    line-height: 130px;
+    text-align: center;
+    top: 0;
+    margin: 0 0 0 -10px;
+  }
+  .flex-next{
+    background-color: lighten($white, $amount: 5);
+    height: 129px;
+    line-height: 130px;
+    text-align: center;
+    top: 0;
+    margin: 0 -10px 0 0;
+  }
+}
+
+.messages-wrapper {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  z-index: 999;
+  height: stretch;
+  background-color: #0000009c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.1s 0.1s ease-in-out;
+  &.hidden{
+    display: none;
+    width: 0;
+    height: 0;
+  }
+  .alert {
+    z-index: 2;
+  }
+  .alert-success{
+    border-color: $white;
+  }
+  .close-all{
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: $white;
+    background: transparent;
+    border: none;
+    font-size: 50px;
+    text-shadow: 0 1px 0 #fff;
+    &:hover{
+      color: #b4b4b4;
+    }
+  }
+  .messages-dismiss {
+    width: 100%;
+    height: stretch;
+    position: absolute;
+    z-index: 0;
+  }
+}
+#views-bootstrap-marcas-page-1{
+  width: 100%;
+}
+.brands_item{
+  margin: 5px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  img{
+    border: 1px solid $main-bussiness-color;
+    border-radius: 20px;
+    &:hover{
+      box-shadow: 0 16px 24px 2px #e0791c1a, 0 6px 30px 5px #e0791c1a, 0 8px 10px -5px #e0791c1a;
     }
   }
 }
